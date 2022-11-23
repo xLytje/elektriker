@@ -42,10 +42,10 @@
 ![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gannt.png)
 
 ## Wireframe
-https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?node-id=0%3A1&t=otwmthZoMBGRDFun-1
+https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rUC9qnbtfQasNduv-6
 
 ## Styleguide
-+ Font: Poppins - light, normal, bold 
++ Font: Poppins - light 300, normal 500, bold 700 
   - https://fonts.google.com/specimen/Poppins
 + Farver: 
   - `#fa7b61` - Orange
