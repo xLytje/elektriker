@@ -39,7 +39,7 @@
 5. Aflever produkt
 
 ## Gannt diagram
-![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gannt.png)
+![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gantt.png)
 
 ## Wireframe
 https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rUC9qnbtfQasNduv-6
