@@ -25,7 +25,7 @@
 3. Lav styleguide
     - Font(e)
     - Farver
-    - Størrelser
+    - Skriftstørrelser
 4. Begynd på kodning
     - Start med HTML og CSS
     - Forside
