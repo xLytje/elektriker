@@ -63,7 +63,8 @@
     - Når design er på plads kan der fortsættes med logik (JS)
       - Form validation
       - Event listeners
-      - Tilføj lazy-load til billeder med JS https://web.dev/lazy-loading-images/
+      
+      - Tilføj ordblindstøtte via en knap
 5. Tilføj JS og debug
   - Test at designet er optimalt på alle skærme, og mobil venligheden er tilpas
   - Tilføj JS til forms, submit buttons og billeder
@@ -72,7 +73,7 @@
   - Hold tidligt møde med kunden og notér evt. rettelser
 
 ## Gannt diagram
-![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gantt.png)
+![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/Online-Gantt-20221124-1.png)
 
 ## Wireframe
 https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rUC9qnbtfQasNduv-6
