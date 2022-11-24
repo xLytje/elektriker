@@ -76,9 +76,8 @@
       - Ordblindhed https://fonts.google.com/specimen/Lexend
       - Dark mode (mørk tema)
       - Læsestøtte (større tekst)
-      - Det laves i et seperat stylesheet som overskriver classes med ID's
+      - Det laves i seperate stylesheets
       - Link stylesheet med JS (eventListener toggle til eksterne stylesheets)
-      - Eksempel: `.broedtekst{font-size: 1em;}` bliver til `#broedtekst{font-size: 1.4em;}`
   - Gå igennem forms og test at JS slår korrekt igennem alle steder 
 6. Aflever produkt
   - Hold tidligt møde med kunden og notér evt. rettelser
