@@ -28,6 +28,10 @@
     - Skriftstørrelser
 4. Begynd på kodning
     - Start med HTML og CSS
+    - Husk core web vitals https://web.dev/learn-core-web-vitals/
+      - Lazy load
+      - Læs op på Core web vitals
+      - Indfør best practice
     - Forside
       - Header
       - Hero
@@ -63,11 +67,18 @@
     - Når design er på plads kan der fortsættes med logik (JS)
       - Form validation
       - Event listeners
-      
-      - Tilføj ordblindstøtte via en knap
+      - Tilføj settings via en HTML knap  
 5. Tilføj JS og debug
   - Test at designet er optimalt på alle skærme, og mobil venligheden er tilpas
-  - Tilføj JS til forms, submit buttons og billeder
+  - Tilføj JS til forms, submit buttons og dyslexia option mm.
+    - Tilføj en options knap der fører til et overlay hvor du kan tilføje støtte til 
+      - Farveblindhed 
+      - Ordblindhed 
+      - Dark mode  
+      - Læsestøtte
+      - Det laves i et seperat stylesheet som overskriver classes med ID's
+      - Link stylesheet med JS
+      - Eksempel: `.broedtekst{font-size: 1em;}` bliver til `#broedtekst{font-size: 1.4em;}`
   - Gå igennem forms og test at JS slår korrekt igennem alle steder 
 6. Aflever produkt
   - Hold tidligt møde med kunden og notér evt. rettelser
