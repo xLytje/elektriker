@@ -8,10 +8,21 @@
 + Kunden har bestemt at bruge Poppins google font
 + De har efterspurgt som minimum en
   - Forside
+    - Sticky menu m. user settings som overlay onclick
+    - Form m. form validering (smides ind på alle undersider)
   - 2 undersider
+    - Side med informationer 
+    - Side med tilbud (price tables)
   - Om os
+    - Historie om firma og grundlæggeren
+    - Få info boksen til at gå ind over hero
   - Kontakt
+    - Informationer omkring tel, mail, adresse
+    - Tilføj google map visning til adresse (ekstra opgave)
   - Tak
+    - Kort side 
+    - Tilgåelse efter form validering
+    - Tilføj "tilbage til forside" funktion. Just in case
 + Deres kunder er husejere, så de vil gerne have et design som hr. og fru Jensen kan finde igennem
 + Den skal være mobil optimeret, fordi ikke alle har computere
 
@@ -32,6 +43,7 @@
       - Lazy load
       - Læs op på Core web vitals
       - Indfør best practice
+      - https://syntax.fm/ (Responsive Design Techniques)
     - Forside
       - Header
       - Hero
@@ -73,7 +85,10 @@
   - Tilføj JS til forms, submit buttons og dyslexia option mm.
     - Tilføj en options knap der fører til et overlay hvor du kan tilføje støtte til 
       - Farveblindhed (css filters)
-      - Ordblindhed https://fonts.google.com/specimen/Lexend
+      - Ordblindhed
+      - https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website 
+      - https://fonts.google.com/specimen/Lexend
+      - 
       - Dark mode (mørk tema)
       - Læsestøtte (større tekst)
       - Det laves i seperate stylesheets
