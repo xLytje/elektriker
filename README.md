@@ -8,6 +8,7 @@
 + Kunden har bestemt at bruge Poppins google font
 + De har efterspurgt som minimum en
   - Forside
+  - 2 undersider
   - Om os
   - Kontakt
   - Tak
