@@ -88,7 +88,7 @@
       - Ordblindhed
       - https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website 
       - https://fonts.google.com/specimen/Lexend
-      - 
+      - https://opendyslexic.org/
       - Dark mode (mørk tema)
       - Læsestøtte (større tekst)
       - Det laves i seperate stylesheets
@@ -98,7 +98,7 @@
   - Hold tidligt møde med kunden og notér evt. rettelser
 
 ## Gannt diagram
-![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/Online-Gantt-20221124-1.png)
+![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gantt-diagram.png)
 
 ## Wireframe
 https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rUC9qnbtfQasNduv-6
