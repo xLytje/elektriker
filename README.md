@@ -72,12 +72,12 @@
   - Test at designet er optimalt på alle skærme, og mobil venligheden er tilpas
   - Tilføj JS til forms, submit buttons og dyslexia option mm.
     - Tilføj en options knap der fører til et overlay hvor du kan tilføje støtte til 
-      - Farveblindhed 
-      - Ordblindhed 
-      - Dark mode  
-      - Læsestøtte
+      - Farveblindhed (css filters)
+      - Ordblindhed https://fonts.google.com/specimen/Lexend
+      - Dark mode (mørk tema)
+      - Læsestøtte (større tekst)
       - Det laves i et seperat stylesheet som overskriver classes med ID's
-      - Link stylesheet med JS
+      - Link stylesheet med JS (eventListener toggle til eksterne stylesheets)
       - Eksempel: `.broedtekst{font-size: 1em;}` bliver til `#broedtekst{font-size: 1.4em;}`
   - Gå igennem forms og test at JS slår korrekt igennem alle steder 
 6. Aflever produkt
@@ -102,4 +102,3 @@ https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rU
   - H2: 3em
   - H3: 1.4em, 2em, 2.5em
   - p: 1em
-
