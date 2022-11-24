@@ -5,7 +5,6 @@
 + Elektrikere skal bruge en hjemmeside
 + hjemmesiden bruges til at promovere deres firma
 + Der skal laves et logo
-+ Kunden har ikke valgt en farve
 + Kunden har bestemt at bruge Poppins google font
 + De har efterspurgt som minimum en
   - Forside
@@ -19,10 +18,16 @@
 
 ## Delopgaver
 1. Lav tidsordning
+    - Gantt diagram https://www.onlinegantt.com/
 2. Lav wireframe
+    - Wireframe på Figma https://www.figma.com/
 3. Lav styleguide
+    - Font(e)
+    - Farver
+    - Størrelser
 4. Begynd på kodning
-    - **Forside**
+    - Start med HTML og CSS
+    - Forside
       - Header
       - Hero
       - Information
@@ -32,11 +37,38 @@
       - Formular
       - Footer
     - Underside
+      - Header
+      - Hero
+      - Information
+      - Lange teskter x2
+      - Form
+      - Footer
     - Om-os-side
+      - Header
+      - Hero
+      - Information
+      - CTA
+      - Form
+      - Footer
     - Kontakt-side
+      - Header
+      - Hero
+      - Form
+      - Footer
     - Tak-side
-    - 404-side
-5. Aflever produkt
+      - Header
+      - Hero
+      - Footer
+    - Når design er på plads kan der fortsættes med logik (JS)
+      - Form validation
+      - Event listeners
+      - Tilføj lazy-load til billeder med JS https://web.dev/lazy-loading-images/
+5. Tilføj JS og debug
+  - Test at designet er optimalt på alle skærme, og mobil venligheden er tilpas
+  - Tilføj JS til forms, submit buttons og billeder
+  - Gå igennem forms og test at JS slår korrekt igennem alle steder 
+6. Aflever produkt
+  - Hold tidligt møde med kunden og notér evt. rettelser
 
 ## Gannt diagram
 ![Gannt diagram](https://rasmuslytje.dk/wp-content/uploads/2022/11/gantt.png)
@@ -52,4 +84,9 @@ https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rU
   - `#262322` - Sort
   - `#fafafa` - Lys grå
   - `#ffffff` - Hvid
++ Skriftstørrelse
+  - H1: 5em
+  - H2: 3em
+  - H3: 1.4em, 2em, 2.5em
+  - p: 1em
 
