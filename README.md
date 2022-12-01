@@ -122,3 +122,5 @@ https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rU
 + https://shortpixel.com/
 + https://devhints.io/
 + https://fontawesome.com/
++ https://flaticon.com/
++ https://animate.style/
