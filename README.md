@@ -115,7 +115,10 @@ https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rU
   - H1: 5em
   - H2: 3em
   - H3: 1.4em, 2em, 2.5em
-  - p: 1em
+  - p:  1em
 
 #### Nyttige links
 + https://app.logo.com/
++ https://shortpixel.com/
++ https://devhints.io/
++ https://fontawesome.com/
