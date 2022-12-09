@@ -109,13 +109,20 @@ https://www.figma.com/file/zYkjJqf02t7oShwBiAt5sQ/Wireframe-elektriker-side?t=rU
 + Farver: 
   - `#fa7b61` - Orange
   - `#262322` - Sort
-  - `#fafafa` - Lys grå
+  - `#f9f9f9` - Lys grå
+  - `#e6e6e6` - Grå
+  - `#888888` - Mørk grå
+  - `#ffffffcc` - Overlay
+  - `5px 5px 10px #00000022` - Skygge
   - `#ffffff` - Hvid
 + Skriftstørrelse
-  - H1: 5em
-  - H2: 3em
-  - H3: 1.4em, 2em, 2.5em
-  - p:  1em
+  - `h1: clamp(2.4em, 10vw,  5em);`
+  - `h2: clamp(2em, 5vw,  3em);`
+  - `h3_1: clamp(2em, 5vw,  2.5em);`
+  - `h3_2: clamp(1.4em, 5vw,  2em);`
+  - `h3_3: clamp(1.2em, 5vw,  1.4em);`
+  - `p: 1em;`
+  - `p: clamp(1.1em, 5vw,  1.3em);` Læsevenlighed
 
 #### Nyttige links
 + https://app.logo.com/
