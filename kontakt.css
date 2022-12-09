@@ -1,0 +1,254 @@
+/* kontakt difference */
+
+.kontakt{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Header Sticky */
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+    z-index: 99;
+}
+.head > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+li > a{
+    text-decoration: none;
+    color: var(--black);
+}
+li > a:hover{
+    color: var(--orange);
+}
+.tilbud{
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 2px solid var(--orange);
+}
+.tilbud:hover{
+    background-color: transparent;
+    color: var(--orange);
+}
+.head > span{
+    width: 175px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Header til mobil */
+.topnav{
+    overflow: hidden;
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.topnav #myLinks{
+    display: none;
+    flex-direction: column;
+    background-color: var(--white)
+}
+#myLinks > li > a{
+    color: var(--black);
+    font-size: var(--p);;
+}
+.topnav a{
+    color: var(--white);
+    background-color: var(--white);
+    padding: 26px 36px;
+    text-decoration: none;
+    font-size: 2em;
+    display: block;
+}
+.topnav a.icon{
+    display: block;
+}
+.topnav a:hover i{
+    color: var(--white);
+}
+.topnav a:hover{
+    background-color: var(--orange);
+}
+.topnav-foot{
+    position: relative !important;
+    z-index: 10005;
+}
+.topnav-foot > a{
+    padding: 10px 20px;
+    background-color: var(--orange);
+}
+.topnav-foot > a > i{
+    color: var(--white);
+}
+
+/* Hero */
+
+.hero{
+    background-image: url("assets/img/kontakt-hero-mobil.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 600px;
+    min-width: 100%;
+    background-color: var(--dark);
+    background-blend-mode: multiply;
+    padding: 0;
+}
+.hero > div > h1, .hero > div > p{
+    color: var(--white);
+}
+.hero > div{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Form */
+
+.form{
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.form > aside > p{
+    color: var(--orange);
+}
+.form > aside > h3{
+    margin: 30px 0;
+}
+.form > aside > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150%;
+}
+.form > aside > form > label{
+    margin-bottom: -15px;
+}
+.form > aside > form > span{
+    display: flex;
+}
+.form > aside > form > span > label > a{
+    color: var(--black);
+    font-weight: 700;
+}
+.form > aside > form > span > label{
+    font-size: 12px;
+    color: var(--dark);
+}
+.fejl{
+    margin-bottom: -20px;
+}
+.submit-btn{
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    color: var(--orange);
+    background-color: var(--white);
+}
+.form > aside > form > input, .form > aside > form > textarea{
+    border-radius: 6px;
+    border: 2px solid var(--light);
+    padding: 10px 0 10px 15px;
+}
+input.btn.submit-btn{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid var(--orange);
+    width: 100%;
+}
+
+/* Footer */
+
+.foot{
+    max-width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+}
+.foot > hr{
+    width: 100%;
+}
+.foot > ul{
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.foot > a{
+    color: var(--dark);
+    font-weight: 300;
+    text-align: right;
+}
+
+
+/* Media query */
+
+@media only screen and (min-width: 601px){
+    .hero{
+        background-image: url("assets/img/kontakt-hero.jpg");
+    }
+    .topnav{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .head{
+        max-width: 100%;
+        padding-right: 100px;
+    }
+    .head > ul{
+        display: none;
+    }
+    .head > img{
+        width: 130px;
+    }
+    .head > span{
+        width: 130px;
+    }
+    .hero{
+        margin: 0;
+    }
+    .hero > div{
+        padding: 0 10px;
+    }
+    .form{
+        width: 80%;
+    }
+    .form > aside > form{
+        width: 110%;
+    }
+    .form > img{
+        display: none;
+    }
+    .foot{
+        width: 90%;
+    }
+    .foot > img, .foot > p, .foot > a{
+        width: 40%;
+    }
+    .foot > ul {
+        display: none;
+    }
+    .btn{
+        font-size: .8em;
+    }
+}

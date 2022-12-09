@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preload" href="theme.css" as="style">
+    <link rel="preload" href="forside.css" as="style">
+    <link rel="preload" href="assets/overlay.css" as="style">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Forside til et skoleprojekt omkring et elektriker firma">
+    <title>Elektriker forside</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="forside.css">
+    <link rel="stylesheet" href="assets/overlay.css">
+    <script src="settings.js" defer></script>
+    <script src="mobil-menu.js" defer></script>
+    <script src="form-validation.js" defer></script>
+    <script src="https://kit.fontawesome.com/123e803ad1.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+    <header class="head desktop">
+        <img src="elektriker-firma-logo/png/logo-no-background.png" alt="Elektriker Firma Logo" width="175px" height="auto">
+        <ul>
+            <li><a href="/index.html">Forside</a></li>
+            <li><a href="/information.html">Information</a></li>
+            <li><a href="/om-os.html">Om os</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/tilbud.html" class="tilbud">Tilbud</a></li>
+        </ul>
+        <span id="syn" class="hilfe"><i class="fa-solid fa-gear"></i> Synshjælp</span>
+        <!--Mobil navigering taget fra w3s og tilpasset-->
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/index.html">Forside</a></li>
+                <li><a href="/information.html">Information</a></li>
+                <li><a href="/om-os.html">Om os</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/tilbud.html">Tilbud</a></li>
+            </ul>
+          </div>
+    </header>
+
+    <!--Overlay til header-->
+    <span class="overlay-color noshow" id="noshow">
+        <div class="overlay-box">
+            <p id="close-overlay"><i class="fa-solid fa-xmark"></i></p>
+            <table class="toggle-list">
+                <tr>
+                    <h4>Synshjælp Indstillinger</h4>
+                    <td>Ordblind støtte</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Ordblind" id="dyslexic">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dark mode</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Dark mode" id="darkmode">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Læsestøtte</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Læsbarhed" id="readable">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <a href="https://www.toptal.com/designers/colorfilter?orig_uri=https://lytjes-indie.netlify.app/&process_type=protan" class="farveblind" target="_blank">Farveblindvenligt design</a>
+        </div>
+    </span>
+    <!--Overlay til header-->
+
+    <section class="hero">
+        <div>
+            <h1>Elektriker Website</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum repellendus reiciendis,<br>ipsum voluptate fuga suscipit assumenda nobis maiores qui quaerat?</p>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <h2>Informations bokse</h2>
+        <div class="info-box info1">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Info 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, officiis.<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, unde.</p>
+        </div>
+        <div class="info-box info2">
+            <i class="fa-solid fa-wrench"></i>
+            <h3>Info 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, praesentium!<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, fugit.</p>
+        </div>
+        <div class="info-box info3">
+            <i class="fa-solid fa-leaf"></i>
+            <h3>Info 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, porro.<br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa?</p>
+        </div>
+    </section>
+
+    <div class="grey-bg">
+    <section class="testimonial">
+        <h3>Hvad siger kunderne?</h3>
+        <div>
+            <h3>Lorem ipsum dolor.</h3>
+            <figure>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit commodi deserunt tempore quo eveniet expedita doloremque architecto nesciunt earum libero, alias dolore unde odit sed ex ipsam consectetur quas. Ad.</p>
+        </div>
+        <div>
+            <h3>Lorem ipsum dolor.</h3>
+            <figure>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" style="color: var(--light);"></i>
+                <i class="fa-solid fa-star" style="color: var(--light);"></i>
+                <i class="fa-solid fa-star" style="color: var(--light);"></i>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere a dicta consequatur et vitae mollitia amet, quis nihil eligendi?</p>
+        </div>
+        <div>
+            <h3>Lorem ipsum dolor.</h3>
+            <figure>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" style="color: var(--light);"></i>
+                <i class="fa-solid fa-star" style="color: var(--light);"></i>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae dignissimos voluptas, modi aliquid, aspernatur culpa voluptatibus architecto animi consequatur necessitatibus ab velit, fugiat dolores. Dolorem unde eius eum accusamus?</p>
+        </div>
+    </section>
+    </div>
+
+    <section class="cta">
+        <aside>
+            <h3>Demo video med elektriker</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eius qui deleniti nobis laboriosam exercitationem eos est inventore sapiente, animi delectus quam placeat nostrum architecto eligendi? Recusandae voluptas nihil consequatur ab minus earum sint, qui autem fugiat veritatis et molestiae.</p>
+            <div>
+                <a href="/tilbud.html" class="btn btn1">Tilbud</a>
+                <a href="/kontakt.html" class="btn btn2">Kontakt</a>
+            </div>
+        </aside>
+        <video src="assets/img/electrician-at-work.mp4" width="50%" loading="lazy" controls></video>
+    </section>
+
+    <div class="grey-bg">
+    <section class="priser">
+        <p>PACKAGE</p>
+        <h3>Priser og service</h3>
+        <div class="pris1 pris">
+            <div>
+                <span><i class="fa-solid fa-bolt"></i></span>
+                <div>
+                    <h3>Standard</h3>
+                    <p>For the professionals</p>
+                </div>
+            </div>
+            <hr>
+            <p><span>$24</span>/user</p>
+            <ul>
+                <li>20 Asset Delivery</li>
+                <li>Unlimited Bandwidth</li>
+                <li>Support System</li>
+            </ul>
+            <a href="/tilbud.html" class="btn">Choose Plan</a>
+        </div>
+        <div class="pris2 pris">
+            <div>
+                <span><i class="fa-solid fa-crown"></i></span>
+                <div>
+                    <h3 style="color: var(--white);">Pro Business</h3>
+                    <p>For the professionals</p>
+                </div>
+            </div>
+            <hr>
+            <p><span>$24</span>/user</p>
+            <ul>
+                <li>20 Asset Delivery</li>
+                <li>Unlimited Bandwidth</li>
+                <li>Support System</li>
+                <li>120+ Message all Operator</li>
+            </ul>
+            <a href="/tilbud.html" class="btn">Choose Plan</a>
+        </div>
+        <div class="pris3 pris">
+            <div>
+                <span><i class="fa-solid fa-trophy"></i></span>
+                <div>
+                    <h3>Enterprises</h3>
+                    <p>For the professionals</p>
+                </div>
+            </div>
+            <hr>
+            <p><span>$35</span>/user</p>
+            <ul>
+                <li>20 Asset Delivery</li>
+                <li>Unlimited Bandwidth</li>
+                <li>Support System</li>
+            </ul>
+            <a href="/tilbud.html" class="btn">Choose Plan</a>
+        </div>
+    </section>
+    </div>
+
+    <section class="form">
+        <aside>
+            <p>CONTACT</p>
+            <h3>Send os en besked</h3>
+            <form action="/tak.html" name="myForm" onsubmit="return validateForm()" method="get">
+                <label for="name">Navn</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <div class="form-fejl1 fejl"></div>
+                <label for="mail">Mail</label>
+                <input type="text" name="mail" id="mail" placeholder="Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <div class="form-fejl2 fejl"></div>
+                <label for="besked">Besked</label>
+                <textarea name="besked" id="besked" cols="30" rows="5" placeholder="Besked"></textarea>
+                <span>
+                    <input type="checkbox" name="tos" id="tos" required>
+                    <label for="tos">I agree to <a href="https://www.iubenda.com/privacy-policy/19335533/legal">Privacy Policy</a> and <a href="https://www.iubenda.com/terms-and-conditions/19335533">Terms of Use</a></label>
+                </span>
+                <input type="submit" value="Send besked" class="btn submit-btn">
+            </form>
+        </aside>
+        <img src="assets/img/form.png" alt="Form grafik" loading="lazy" width="50%">
+    </section>
+
+    
+    <div class="grey-bg">
+    <footer class="foot">
+        <img src="elektriker-firma-logo/png/logo-no-background.png" alt="Vores logo" loading="lazy" width="350px">
+        <ul>
+            <li><a href="/information.html">Information</a></li>
+            <li><a href="/om-os.html">Om os</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/tilbud.html" class="tilbud">Tilbud</a></li>
+        </ul>
+        <div class="topnav topnav-foot">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/index.html">Forside</a></li>
+                <li><a href="/information.html">Information</a></li>
+                <li><a href="/om-os.html">Om os</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/tilbud.html">Tilbud</a></li>
+            </ul>
+          </div>
+        <hr>
+        <p>Copyright © 2022 RasmusLytje. All rights reserved</p>
+        <a href="tel:+4542672717"><i class="fa-solid fa-phone"></i> +45 42 67 27 17</a>
+    </footer>
+    </div>
+
+</body>
+</html>

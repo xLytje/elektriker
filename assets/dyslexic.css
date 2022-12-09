@@ -1,0 +1,9 @@
+body, html{
+    font-family: 'dyslexic', sans-serif;
+}
+::placeholder{
+    font-family: 'dyslexic', sans-serif;
+}
+input.btn.submit-btn{
+    font-family: 'dyslexic', sans-serif;
+}

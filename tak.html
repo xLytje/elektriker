@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preload" href="theme.css" as="style">
+    <link rel="preload" href="tak.css" as="style">
+    <link rel="preload" href="assets/overlay.css" as="style">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tak side til et skoleprojekt omkring et elektriker firma">
+    <title>Elektriker Tak</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="tak.css">
+    <link rel="stylesheet" href="assets/overlay.css">
+    <script src="settings.js" defer></script>
+    <script src="mobil-menu.js" defer></script>
+    <script src="form-validation.js" defer></script>
+    <script src="https://kit.fontawesome.com/123e803ad1.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+    <header class="head desktop">
+        <img src="elektriker-firma-logo/png/logo-no-background.png" alt="Elektriker Firma Logo" width="175px" height="auto">
+        <ul>
+            <li><a href="/index.html">Forside</a></li>
+            <li><a href="/information.html">Information</a></li>
+            <li><a href="/om-os.html">Om os</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/tilbud.html" class="tilbud">Tilbud</a></li>
+        </ul>
+        <span id="syn" class="hilfe"><i class="fa-solid fa-gear"></i> Synshjælp</span>
+        <!--Mobil navigering taget fra w3s og tilpasset-->
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/index.html">Forside</a></li>
+                <li><a href="/information.html">Information</a></li>
+                <li><a href="/om-os.html">Om os</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/tilbud.html">Tilbud</a></li>
+            </ul>
+          </div>
+    </header>
+
+    <!--Overlay til header-->
+    <span class="overlay-color noshow" id="noshow">
+        <div class="overlay-box">
+            <p id="close-overlay"><i class="fa-solid fa-xmark"></i></p>
+            <table class="toggle-list">
+                <tr>
+                    <h4>Synshjælp Indstillinger</h4>
+                    <td>Ordblind støtte</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Ordblind" id="dyslexic">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dark mode</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Dark mode" id="darkmode">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Læsestøtte</td>
+                    <td>
+                        <label class="switch">
+                            <input type="checkbox" name="Læsbarhed" id="readable">
+                            <span class="slider round"></span>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <a href="https://www.toptal.com/designers/colorfilter?orig_uri=https://lytjes-indie.netlify.app/&process_type=protan" class="farveblind" target="_blank">Farveblindvenligt design</a>
+        </div>
+    </span>
+    <!--Overlay til header-->
+
+    <section class="hero">
+        <div>
+            <h1>Tak for din besked</h1>
+            <p>Vi kontakter dig så snart vi kan. Det tager typisk op til 12 timer før vi ser beskeden.</p>
+        </div>
+    </section>
+
+    <div class="grey-bg">
+    <footer class="foot">
+        <img src="elektriker-firma-logo/png/logo-no-background.png" alt="Vores logo" loading="lazy" width="350px">
+        <ul>
+            <li><a href="/information.html">Information</a></li>
+            <li><a href="/om-os.html">Om os</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/tilbud.html" class="tilbud">Tilbud</a></li>
+        </ul>
+        <div class="topnav topnav-foot">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="myLinks">
+                <li><a href="/index.html">Forside</a></li>
+                <li><a href="/information.html">Information</a></li>
+                <li><a href="/om-os.html">Om os</a></li>
+                <li><a href="/kontakt.html">Kontakt</a></li>
+                <li><a href="/tilbud.html">Tilbud</a></li>
+            </ul>
+          </div>
+        <hr>
+        <p>Copyright © 2022 RasmusLytje. All rights reserved</p>
+        <a href="tel:+4542672717"><i class="fa-solid fa-phone"></i> +45 42 67 27 17</a>
+    </footer>
+    </div>
+
+</body>
+</html>

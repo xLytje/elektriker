@@ -1,0 +1,22 @@
+
+:root {
+    --white: #202020;
+    --black: #ffffff;
+    --grey: #313131;
+    --light: #424242;
+    --dark: #ffffff;
+    --overlay: #424242cc;
+}
+
+.hero > div > p{
+    color: var(--black);
+}
+td, .head > span, label, .pris > div > span > i, .hero > div > h1{
+    color: var(--dark);
+}
+.hero{
+    background-color: #888;
+}
+::placeholder{
+    color: var(--light);
+}
